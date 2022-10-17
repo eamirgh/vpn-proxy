@@ -44,7 +44,7 @@ src="https://img.shields.io/badge/Service-V2ray-success.svg">  <img src= "https:
 - Replace all this with your own acc name :
 
 ```diff
-- GitUser="syapik96"
+- GitUser="eamirgh"
 ```
 	    
 - if there is an error not skilled to fix.(hope pull issue).

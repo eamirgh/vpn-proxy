@@ -1,5 +1,5 @@
 #!/bin/bash
-#GitUser="syapik96"
+#GitUser="eamirgh"
 #wget https://github.com/${GitUser}/
 
 red='\e[1;31m'
@@ -29,7 +29,7 @@ read -p "Hostname / Domain: " host
 echo -e "\e[0m"
 echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
 echo "$host" >> /root/domain
-GitUser="syapik96"
+GitUser="eamirgh"
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/hanyassh.sh && chmod +x hanyassh.sh && screen -S hanyassh.sh ./hanyassh.sh
 wget https://raw.githubusercontent.com/${GitUser}/aws/main/websocketsshonly.sh && chmod +x websocketsshonly.sh && screen -S websocketsshonly.sh ./websocketsshonly.sh
 rm -f /root/hanyassh.sh

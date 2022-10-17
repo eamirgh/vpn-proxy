@@ -3,7 +3,7 @@
 # 
 # ==================================================
 
-GitUser="syapik96"
+GitUser="eamirgh"
 #wget https://github.com/${GitUser}/
 
 # initializing var
@@ -347,7 +347,7 @@ iptables-restore -t < /etc/iptables.up.rules
 netfilter-persistent save
 netfilter-persistent reload
 
-GitUser="syapik96"
+GitUser="eamirgh"
 # download script
 cd /usr/local/sbin
 wget -O add-host "https://raw.githubusercontent.com/${GitUser}/aws/main/add-host.sh" && chmod +x add-host

@@ -506,7 +506,7 @@ systemctl enable trojan
 
 echo -e "\e[1;32m  Creating V2ray Menu scripts..\e[0m"
 sleep 2
-GitUser="syapik96"
+GitUser="eamirgh"
 # Download Script
 cd /usr/local/sbin
 wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/trojaan.sh"
@@ -554,4 +554,3 @@ echo "0 0 * * * root xp-tr" >> /etc/crontab
 echo "0 0 * * * root xp-vless" >> /etc/crontab
 systemctl restart v2ray
 rm -f ins-vt.sh
-

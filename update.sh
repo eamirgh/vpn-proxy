@@ -11,11 +11,10 @@ clear
 
 # update
 cd /usr/bin
-GitUser="syapik96"
+GitUser="eamirgh"
 #wget https://github.com/${GitUser}/
 wget -O  update1 "https://raw.githubusercontent.com/${GitUser}/aws/main/menu-update/update1.sh"
 chmod +x update1
 update1
 
 echo -e "Starting Update ..." | lolcat
-

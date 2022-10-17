@@ -73,4 +73,3 @@ case $trojann1 in
       exit
       ;;
   esac
-

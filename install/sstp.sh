@@ -27,8 +27,8 @@ state=Malaysia
 locality=Malaysia
 organization=gilergames
 organizationalunit=gilergames
-commonname=gilergames.tk
-email=zulhisyam421@gmail.com
+commonname=gilergames.test
+email=email@gmail.test
 
 #install sstp
 apt install openssl iptables iptables-persistent -y

@@ -9,8 +9,8 @@ echo "Domain: ${DOMAIN}"
 echo ""
 read -rp "Masukkan Subdomain: " -e sub
 SUB_DOMAIN=${sub}.${DOMAIN}
-CF_ID=zulhisyam421@gmail.com
-CF_KEY=48e94b491ba3933abe8732b9a5f91cf3f3c36
+CF_ID=email@gmail.test
+CF_KEY=xxxxxx6
 set -euo pipefail
 IP=$(wget -qO- http://ipecho.net/plain );
 echo "Pointing DNS Untuk Domain ${SUB_DOMAIN}..."

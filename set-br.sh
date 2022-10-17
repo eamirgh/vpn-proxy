@@ -15,8 +15,8 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user zulhisyam421@gmail.com
-from zulhisyam421@gmail.com
+user email@gmail.test
+from email@gmail.test
 password syapik96
 logfile ~/.msmtp.log
 EOF
